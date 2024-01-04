@@ -47,11 +47,11 @@ class MSGNet(nn.Module):
         )
 
         self.block3 = nn.Sequential(
-            DWSeparableConv(16, 8, 5, act=True),
+            DWSeparableConv(16, 8, 5),
         )
 
         self.block4 = nn.Sequential(
-            DWSeparableConv(8, 8, 5, act=True),
+            DWSeparableConv(8, 8, 5),
         )
 
         self.conv_final = nn.Sequential(

@@ -108,12 +108,12 @@ class ConvNormAct(nn.Module):
 
 
 class DWSeparableConv(nn.Module):
-    def __init__(self, ins, outs, kernel, stride=1, act=True):
+    def __init__(self, ins, outs, kernel):
         super().__init__()
 
         self.conv = nn.Sequential(
-            ConvNormAct(ins, ins, kernel, stride=stride, groups=ins),
-            ConvNormAct(ins, outs, 1, act=act),
+            ConvNormAct(ins, ins, kernel, groups=ins),
+            ConvNormAct(ins, outs, 1),
         )
 
     def forward(self, x):
