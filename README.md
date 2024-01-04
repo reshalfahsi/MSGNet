@@ -1,6 +1,6 @@
 # MSGNet: Modified MobileNet-ShuffleNet-GhostNet Network for Lightweight Retinal Vessel Segmentation
 
-This is the official implementation of [MSGNet: Modified MobileNet-ShuffleNet-GhostNet Network for Lightweight Retinal Vessel Segmentation](https://ieeexplore.ieee.org/abstract/document/10276687), presented in ICITACEE 2023.
+This is the official implementation of [MSGNet: Modified MobileNet-ShuffleNet-GhostNet Network for Lightweight Retinal Vessel Segmentation](https://ieeexplore.ieee.org/abstract/document/10276687), presented at ICITACEE 2023.
 
 ### Model
 
