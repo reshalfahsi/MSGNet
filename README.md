@@ -2,7 +2,13 @@
 
 This is the official implementation of [MSGNet: Modified MobileNet-ShuffleNet-GhostNet Network for Lightweight Retinal Vessel Segmentation](https://ieeexplore.ieee.org/abstract/document/10276687), presented in ICITACEE 2023.
 
-![MSGNet](./assets/msgnet-arch.png)
+### Model
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/reshalfahsi/MSGNet/master/assets/msgnet-arch.png" width="800">
+
+</div>
 
 
 ## Requirements
